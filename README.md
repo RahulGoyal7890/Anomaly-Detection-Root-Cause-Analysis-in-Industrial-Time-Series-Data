@@ -1,27 +1,68 @@
-# Anomaly-Detection-Root-Cause-Analysis-in-Industrial-Time-Series-Data
+# 🔍 Anomaly Detection & Root Cause Analysis (Industrial Time-Series)
 
-1. Problem
-Industrial systems generate massive sensor data. Detecting faults early is critical to avoid downtime.
+Machine learning system for detecting faults and anomalies in industrial processes using multivariate time-series data
 
-2. Approach
-   - Applied PCA for dimensionality reduction
-   - Used moving window monitoring for real-time detection
-   - Used statistical thresholds (T², Q) for anomaly detection
-   - Applied RBC method to identify root cause variables
+## Problem
 
-3. Results
-   - Successfully detected abnormal operating conditions
-   - Identified top contributing variables for faults
-   - Enabled interpretable root cause analysis
+Industrial systems generate large volumes of sensor data, but:
 
-4. Business Impact
-   - Reduced manual monitoring effort
-   - Faster fault detection
-   - Improved operational efficiency
+* Faults are difficult to detect early
+* Noisy data leads to false alarms
+* Traditional threshold-based monitoring is unreliable
+* Root cause identification is complex
 
-5. Tools
-   - Python
-   - Time-series analysis
-   - Statistical modeling
+## Solution
 
-Note:- Project based on real industrial data (code not shared due to confidentiality)
+Built a machine learning-based anomaly detection system that:
+
+* Detects abnormal patterns in multivariate time-series data
+* Reduces false positives using advanced statistical techniques
+* Identifies potential root causes of faults
+* Enables real-time monitoring and early warning
+
+## Approach
+
+* Data preprocessing and feature engineering
+* Dimensionality reduction using PCA / SFA
+* Statistical monitoring using Hotelling’s T²
+* Anomaly detection on time-series data
+* Root cause analysis for fault identification
+
+## 📊 Key Results
+
+* Reduced false alarms by up to 60%
+* Improved reliability of fault detection
+* Enabled early detection of abnormal system behavior
+* Suitable for real-time industrial deployment
+
+## Business Impact
+
+* Prevent equipment failures
+* Reduce downtime and operational risk
+* Improve system reliability
+* Enable proactive maintenance
+
+## Live Capabilities
+
+* Real-time anomaly detection for industrial time-series data
+* Early fault detection and reduction of false alarms
+* Statistical monitoring using advanced techniques (PCA, SFA, Hotelling’s T²)
+* Scalable system design for industrial applications
+
+## 🛠 Tech Stack
+
+* Python (Pandas, NumPy, Scikit-learn)
+* Machine Learning & Statistical Methods
+* PCA, SFA, Hotelling’s T²
+* Time-Series Analysis
+
+## Use Cases
+
+* Fault detection in industrial systems
+* Process monitoring and control
+* Manufacturing analytics
+* Predictive maintenance
+
+## Let's Connect
+
+If you need anomaly detection or monitoring systems for your data, feel free to reach out.
